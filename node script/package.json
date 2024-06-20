@@ -1,0 +1,14 @@
+{
+  "name": "hibi",
+  "version": "1.0.0",
+  "description": "Firebase Admin scripts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.7.0"
+  },
+  "author": "me",
+  "license": "ISC"
+}
