@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "262733440428",
+    "firebase_url": "https://esp32bs-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "esp32bs",
+    "storage_bucket": "esp32bs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262733440428:android:13d9acefa97a09efa08609",
+        "android_client_info": {
+          "package_name": "com.fire.boulclim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Yv7CYZ_kXwgMn5qf8StR1QDnCbGGqqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262733440428:android:1fc7260be324ddd2a08609",
+        "android_client_info": {
+          "package_name": "com.fire.clim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Yv7CYZ_kXwgMn5qf8StR1QDnCbGGqqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262733440428:android:a0a905e1c694540aa08609",
+        "android_client_info": {
+          "package_name": "com.fire.climv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Yv7CYZ_kXwgMn5qf8StR1QDnCbGGqqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262733440428-hm7m16i3dc0lvd0o59gqd20aupgdeqg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

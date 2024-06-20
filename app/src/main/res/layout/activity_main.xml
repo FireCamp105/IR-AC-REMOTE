@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/roomtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONNECTION LOST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomtemp"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/TEMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OFF"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <Button
+        android:id="@+id/TEMPDOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="@+id/TEMP"
+        app:layout_constraintEnd_toStartOf="@+id/TEMP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TEMP" />
+
+    <Button
+        android:id="@+id/TEMPUP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="@+id/TEMP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TEMP"
+        app:layout_constraintTop_toTopOf="@+id/TEMP" />
+
+    <Button
+        android:id="@+id/SEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        app:layout_constraintBottom_toBottomOf="@+id/OFF"
+        app:layout_constraintStart_toStartOf="@+id/TEMPDOWN"
+        app:layout_constraintTop_toTopOf="@+id/OFF" />
+
+    <Button
+        android:id="@+id/DRY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TEMPDOWN"
+        app:layout_constraintStart_toStartOf="@+id/TEMPDOWN"
+        app:layout_constraintTop_toBottomOf="@+id/MODE"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/MODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COOL/HOT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TEMPDOWN"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/TEMPDOWN"
+        app:layout_constraintTop_toBottomOf="@+id/TEMPDOWN"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/FAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TEMPUP"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TEMPUP"
+        app:layout_constraintTop_toBottomOf="@+id/TEMPUP"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/MODETEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODE"
+        app:layout_constraintBottom_toTopOf="@+id/MODE"
+        app:layout_constraintEnd_toEndOf="@+id/MODE"
+        app:layout_constraintStart_toStartOf="@+id/MODE" />
+
+    <TextView
+        android:id="@+id/Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TEMP"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/ON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        app:layout_constraintBottom_toBottomOf="@+id/OFF"
+        app:layout_constraintEnd_toEndOf="@+id/TEMPUP"
+        app:layout_constraintTop_toTopOf="@+id/OFF" />
+
+    <TextView
+        android:id="@+id/FANSPEEDTEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fan Speed"
+        app:layout_constraintBottom_toTopOf="@+id/FAN"
+        app:layout_constraintEnd_toEndOf="@+id/FAN"
+        app:layout_constraintStart_toStartOf="@+id/FAN" />
+
+    <TextView
+        android:id="@+id/SepcialModes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Modes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Code"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/PO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PO"
+        app:layout_constraintBottom_toBottomOf="@+id/DRY"
+        app:layout_constraintEnd_toStartOf="@+id/TEMPUP"
+        app:layout_constraintStart_toEndOf="@+id/TEMPDOWN"
+        app:layout_constraintTop_toTopOf="@+id/DRY" />
+
+    <Button
+        android:id="@+id/FANMODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAN MODE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TEMPUP"
+        app:layout_constraintStart_toStartOf="@+id/TEMPUP"
+        app:layout_constraintTop_toBottomOf="@+id/FAN"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/SETTINGTITLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRENT SETTINGS"
+        app:layout_constraintBottom_toTopOf="@+id/Code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TEMP" />
+
+    <TextView
+        android:id="@+id/SETTING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        app:layout_constraintEnd_toEndOf="@+id/SETTINGTITLE"
+        app:layout_constraintStart_toStartOf="@+id/SETTINGTITLE"
+        app:layout_constraintTop_toBottomOf="@+id/SETTINGTITLE" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
